@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_white"
+    android:layout_marginLeft="@dimen/d_margin_25"
+    android:layout_marginRight="@dimen/d_margin_25"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/p_margin_15"
+        android:text="All"
+        android:textColor="@color/c_login_text_color_3b3b3b"
+        android:textSize="@dimen/s_text_15" />
+
+    <View
+        android:id="@+id/view_seperator1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d_margin_1_view"
+        android:background="@color/c__grey_seperator_cfcfcf" />
+
+    <TextView
+        android:id="@+id/tv_pswd_protected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/p_margin_15"
+        android:text="Password Protected"
+        android:textColor="@color/c_login_text_color_3b3b3b"
+        android:textSize="@dimen/s_text_15" />
+
+    <View
+        android:id="@+id/view_seperator2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d_margin_1_view"
+        android:background="@color/c__grey_seperator_cfcfcf" />
+
+    <TextView
+        android:id="@+id/tv_my_created"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/p_margin_15"
+        android:text="My Created"
+        android:textColor="@color/c_login_text_color_3b3b3b"
+        android:textSize="@dimen/s_text_15" />
+
+</LinearLayout>

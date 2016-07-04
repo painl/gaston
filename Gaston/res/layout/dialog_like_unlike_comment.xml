@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/d_margin_60"
+        android:layout_marginLeft="@dimen/d_margin_20"
+        android:layout_marginRight="@dimen/d_margin_20"
+        android:layout_marginTop="@dimen/d_margin_20"
+        android:background="@drawable/xml_dialog_list_like_bg" >
+
+        <TextView
+            android:id="@+id/tv_total_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/d_margin_10"
+            android:layout_marginRight="@dimen/d_margin_10"
+            android:layout_marginTop="@dimen/d_margin_30"
+            android:background="@drawable/xml_list_like_bg"
+            android:gravity="center"
+            android:padding="@dimen/d_margin_10"
+            android:text=""
+            android:textColor="@color/c_black"
+            android:textSize="@dimen/s_text_18" />
+
+        <ListView
+            android:id="@+id/ll_list_data"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ll_comment_text"
+            android:layout_below="@+id/tv_total_count"
+            android:layout_marginBottom="@dimen/d_margin_12"
+            android:divider="@null"
+            android:dividerHeight="@dimen/d_margin_5"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:paddingBottom="@dimen/d_margin_12"
+            android:paddingLeft="@dimen/d_margin_12"
+            android:paddingRight="@dimen/d_margin_12"
+            android:paddingTop="5dp"
+            android:scrollbars="none" />
+
+        <RelativeLayout
+            android:id="@+id/ll_comment_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/c_login_button_green_0a6f1f"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/img_send_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="10dp"
+                android:src="@drawable/enter_text" />
+
+            <EditText
+                android:id="@+id/et_comment_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:hint="Enter your text"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:textColor="@color/c_white"
+                android:textColorHint="@color/c_white"
+                android:textSize="@dimen/s_text_15" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_cross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/cross" />
+
+    <TextView
+        android:id="@+id/tv_no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/d_margin_10"
+        android:text="No data found"
+        android:textColor="@color/c_black"
+        android:textSize="@dimen/s_text_12"
+        android:visibility="gone" />
+
+</RelativeLayout>

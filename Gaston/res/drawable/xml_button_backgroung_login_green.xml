@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Background -->
+    <item>
+        <shape>
+            <solid android:color="@color/c_login_button_green_0a6f1f" />
+
+            <padding
+                android:bottom="@dimen/p_margin_15"
+                android:left="@dimen/p_margin_30"
+                android:right="@dimen/p_margin_30"
+                android:top="@dimen/p_margin_15" />
+
+            <corners android:radius="@dimen/d_radius_10" />
+        </shape>
+    </item>
+
+</layer-list>

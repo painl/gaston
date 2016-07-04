@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;appcompat_v7&apos;" deleteContents="true" description="Delete resource &apos;appcompat_v7&apos;" element1="/appcompat_v7" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1458025647395"/>&#x0A;<refactoring comment="Delete resource &apos;AsyncLoaderDemo&apos;" deleteContents="true" description="Delete resource &apos;AsyncLoaderDemo&apos;" element1="/AsyncLoaderDemo" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1458025709103"/>
+</session>

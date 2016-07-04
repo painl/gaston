@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/recordebg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/ll_record_icon" >
+
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="0:00"
+            android:textColor="@color/c_303030"
+            android:textSize="@dimen/s_text_25"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_timer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_timer"
+            android:layout_centerHorizontal="true"
+            android:text="Tap to start recording"
+            android:textColor="@color/c_303030"
+            android:textSize="@dimen/s_text_15" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_record_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp" >
+
+        <Button
+            android:id="@+id/img_record"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/recordingicon" />
+    </RelativeLayout>
+
+</RelativeLayout>

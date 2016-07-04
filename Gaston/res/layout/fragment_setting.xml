@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c__grey_seperator_cfcfcf"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/img_filter"
+        android:background="@color/c_login_button_green_0a6f1f" >
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/d_margin_20"
+            android:src="@drawable/backhome" />
+
+        <TextView
+            android:id="@+id/tv_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/p_margin_10"
+            android:text="Setting"
+            android:textColor="@color/c_white"
+            android:textSize="@dimen/s_text_20" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c_white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp" >
+
+            <TextView
+                android:id="@+id/tv_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notifications"
+                android:textColor="@color/c_black"
+                android:textSize="@dimen/s_text_15" />
+
+            <Switch
+                android:id="@+id/switch_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:button="@drawable/xml_switch_state"
+                android:checked="false"
+                android:textOff=""
+                android:textOn=""
+                android:thumb="@color/c_transparent"
+                android:track="@color/c_transparent" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d_margin_1_view"
+            android:layout_below="@+id/tv_choose_img"
+            android:background="@color/c__grey_seperator_cfcfcf" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp" >
+
+            <TextView
+                android:id="@+id/tv_change_pswd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Password"
+                android:textColor="@color/c_black"
+                android:textSize="@dimen/s_text_15" />
+
+            <ImageView
+                android:id="@+id/img_change_pawd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/viewmorearrow" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d_margin_1_view"
+            android:layout_below="@+id/tv_choose_img"
+            android:background="@color/c__grey_seperator_cfcfcf" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp" >
+
+            <TextView
+                android:id="@+id/tv_tnm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms &amp; Conditions"
+                android:textColor="@color/c_black"
+                android:textSize="@dimen/s_text_15" />
+
+            <ImageView
+                android:id="@+id/img_tnm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/viewmorearrow" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d_margin_1_view"
+            android:layout_below="@+id/tv_choose_img"
+            android:background="@color/c__grey_seperator_cfcfcf" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp" >
+
+            <TextView
+                android:id="@+id/tv_about_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:textColor="@color/c_black"
+                android:textSize="@dimen/s_text_15" />
+
+            <ImageView
+                android:id="@+id/img_about_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/viewmorearrow" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d_margin_1_view"
+            android:layout_below="@+id/tv_choose_img"
+            android:background="@color/c__grey_seperator_cfcfcf" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp" >
+
+            <TextView
+                android:id="@+id/tv_privacy_policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:textColor="@color/c_black"
+                android:textSize="@dimen/s_text_15" />
+
+            <ImageView
+                android:id="@+id/img_privacy_policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/viewmorearrow" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/d_margin_30"
+        android:layout_marginRight="@dimen/d_margin_30"
+        android:layout_marginTop="@dimen/d_margin_20"
+        android:background="@drawable/xml_button_backgroung_login_green"
+        android:text="Logout"
+        android:textColor="@color/c_white"
+        android:textSize="@dimen/s_text_18"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="c_transparent">#00000000</color>
+    <color name="c_white">#ffffff</color>
+    <color name="c_black">#000000</color>
+    <color name="c_login_text_color_3b3b3b">#3b3b3b</color>
+    <color name="c_login_text_color_blue_0c93d3">#0c93d3</color>
+    <color name="c_login_button_green_0a6f1f">#0a6f1f</color>
+    <color name="c_fb_nave_blue_3e4e9c">#3e4e9c</color>
+    <color name="c_fb_dark_navy_blue_31418f">#31418f</color>
+    <color name="c_forgot_pswd_heading_3a3a3a">#3a3a3a</color>
+    <color name="c_radio_text_green_4a8653">#4a8653</color>
+    <color name="c_home_screen_background_grey_d8dbdb">#d8dbdb</color>
+    <color name="c_green_selector_0b6f20">#0b6f20</color>
+    <color name="c_grey_e8e8e8">#e8e8e8</color>
+    <color name="c__grey_seperator_cfcfcf">#cfcfcf</color>
+    <color name="c_f7f7f7_light_grey">#f7f7f7</color>
+    <color name="c_5e5e5e">#5e5e5e</color>
+    <color name="c_8f8f8f">#8f8f8f</color>
+    <color name="c_4c4c4c">#4c4c4c</color>
+    <color name="c_33a24a">#33a24a</color>
+    <color name="c_3a3a3a">#3a3a3a</color>
+    <color name="c_f7f7f7">#f7f7f7</color>
+    <color name="c_303030">#303030</color>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xml_rl_row_home"
+        android:paddingBottom="8dp" >
+
+        <com.in.gaston.view.RoundImageViewGray
+            android:id="@+id/img_listing_data_image"
+            android:layout_width="@dimen/d_margin_80_IMG_VIEW"
+            android:layout_height="@dimen/d_margin_80_IMG_VIEW"
+            android:padding="@dimen/d_margin_10"
+            android:src="@drawable/profileiconbig" />
+
+        <TextView
+            android:id="@+id/tv_person_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="@dimen/d_margin_10"
+            android:layout_toRightOf="@+id/img_listing_data_image"
+            android:text="anshikfdsfsddddddffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa"
+            android:textColor="@color/c_black"
+            android:textSize="@dimen/s_text_15" />
+
+        <TextView
+            android:id="@+id/tv_comment_sent_timing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_person_name"
+            android:layout_below="@+id/tv_person_name"
+            android:text="tv_comment_sent_timing"
+            android:textColor="@color/c_black"
+            android:textSize="@dimen/s_text_12" />
+
+       
+    </RelativeLayout>
+
+</RelativeLayout>

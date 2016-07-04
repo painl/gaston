@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/xml_rl_row_home"
+        android:paddingBottom="@dimen/d_margin_2" >
+
+        <ImageView
+            android:id="@+id/img_pswd_protected"
+            android:layout_width="@dimen/d_margin_25"
+            android:layout_height="@dimen/d_margin_25"
+            android:layout_alignBottom="@+id/tv_interest_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/d_margin_15"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/passwordprotect" />
+
+        <ImageView
+            android:id="@+id/img_pswd_protected1"
+            android:layout_width="@dimen/d_margin_25"
+            android:layout_height="@dimen/d_margin_25"
+            android:layout_alignBottom="@+id/tv_interest_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/d_margin_15"
+            android:layout_marginTop="@dimen/d_margin_10"
+            android:src="@drawable/passwordprotect"
+            android:visibility="invisible" />
+
+        <com.in.gaston.view.RoundImageViewGray
+            android:id="@+id/img_interest_view"
+            android:layout_width="@dimen/d_margin_80_IMG_VIEW"
+            android:layout_height="@dimen/d_margin_80_IMG_VIEW"
+            android:padding="@dimen/d_margin_5"
+            android:src="@drawable/profileiconbig" />
+
+        <TextView
+            android:id="@+id/tv_interest_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/d_margin_8"
+            android:layout_marginTop="@dimen/d_margin_12"
+            android:layout_toLeftOf="@+id/img_pswd_protected1"
+            android:layout_toRightOf="@+id/img_interest_view"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/text_interest_name"
+            android:textColor="@color/c_black"
+            android:textSize="@dimen/s_text_18" />
+
+        <TextView
+            android:id="@+id/tv_interest_created_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_interest_name"
+            android:layout_below="@+id/tv_interest_name"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="abc"
+            android:textColor="@color/c_black"
+            android:textSize="@dimen/s_text_10" />
+
+        <LinearLayout
+            android:id="@+id/ll_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_interest_name"
+            android:layout_below="@+id/tv_interest_created_date_time"
+            android:layout_marginTop="@dimen/d_margin_12"
+            android:layout_toLeftOf="@+id/tv_subscribe_count"
+            android:orientation="horizontal" >
+
+            <com.in.gaston.view.RoundImageViewGray
+                android:id="@+id/img_user"
+                android:layout_width="@dimen/d_margin_35"
+                android:layout_height="@dimen/d_margin_35"
+                android:padding="@dimen/d_margin_5"
+                android:src="@drawable/profileiconsmall" />
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/d_margin_5"
+                android:singleLine="true"
+                android:text="aweqeqweq=eq"
+                android:textColor="@color/c_black"
+                android:textSize="@dimen/s_text_12" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_subscribe_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/d_margin_5"
+            android:layout_toLeftOf="@+id/btn_subscribe"
+            android:text="1000"
+            android:textColor="@color/c_black"
+            android:textSize="@dimen/s_text_15" />
+
+        <Button
+            android:id="@+id/btn_subscribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_interest_created_date_time"
+            android:layout_marginRight="@dimen/d_margin_15"
+            android:background="@drawable/xml_green_button_subscribe"
+            android:paddingBottom="@dimen/p_margin_2"
+            android:paddingLeft="@dimen/p_margin_5"
+            android:paddingRight="@dimen/p_margin_5"
+            android:paddingTop="@dimen/p_margin_2"
+            android:text="Unsubscribe"
+            android:textColor="@color/c_white"
+            android:textSize="@dimen/s_text_12" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_interest_view"
+            android:layout_marginLeft="@dimen/d_margin_20"
+            android:layout_marginRight="@dimen/d_margin_20"
+            android:paddingTop="@dimen/d_margin_5"
+            android:text="1000dsadddfl,mflk;sngkldngkldfgnklfdnglkfdngklfdngklfdnglkdfngkldfgfdgfdgfdggf"
+            android:textColor="@color/c_black"
+            android:textSize="@dimen/s_text_12" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/cross_icon"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_view"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@color/c_grey_e8e8e8"
+        android:gravity="right"
+        android:padding="@dimen/d_margin_5" >
+
+        <ImageView
+            android:id="@+id/img_mask_fakqe"
+            android:layout_width="@dimen/d_margin_25"
+            android:layout_height="@dimen/d_margin_25"
+            android:src="@drawable/usermask"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_mask_fake"
+            android:layout_width="@dimen/d_margin_25"
+            android:layout_height="@dimen/d_margin_25"
+            android:src="@drawable/usermask" />
+
+        <ImageView
+            android:id="@+id/img_text"
+            android:layout_width="@dimen/d_margin_25"
+            android:layout_height="@dimen/d_margin_25"
+            android:layout_marginLeft="@dimen/d_margin_30"
+            android:src="@drawable/textmessage" />
+
+        <ImageView
+            android:id="@+id/img_pic"
+            android:layout_width="@dimen/d_margin_25"
+            android:layout_height="@dimen/d_margin_25"
+            android:layout_marginLeft="@dimen/d_margin_30"
+            android:src="@drawable/picture" />
+
+        <ImageView
+            android:id="@+id/img_aud"
+            android:layout_width="@dimen/d_margin_25"
+            android:layout_height="@dimen/d_margin_25"
+            android:layout_marginLeft="@dimen/d_margin_30"
+            android:src="@drawable/sound_1" />
+    </LinearLayout>
+
+</RelativeLayout>
