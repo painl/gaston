@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="fromDegrees" format="float|reference" />
+    <attr name="toDegrees" format="float|reference" />
+    <attr name="childSize" format="dimension|reference" />
+
+	<declare-styleable name="ArcLayout">
+        <attr name="fromDegrees"/>
+        <attr name="toDegrees"/>
+        <attr name="childSize"/>
+	</declare-styleable>
+
+    <declare-styleable name="ArcMenu">
+        <attr name="fromDegrees"/>
+        <attr name="toDegrees"/>
+        <attr name="childSize"/>
+    </declare-styleable>
+	
+	<declare-styleable name="RayLayout">
+		<attr name="leftHolderWidth" format="dimension" />
+	</declare-styleable>
+
+
+    <declare-styleable name="TumblrLayout">
+        <attr name="leftThumbPadding" format="dimension" />
+        <attr name="menuIconSize" format="dimension" />
+        <attr name="thumbPaddingTop" format="dimension" />
+        <attr name="bottomHolderHeight" format="dimension" />
+        <attr name="rightHolderWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TumblrMenu">
+        <attr name="menuAnchor" format="enum">
+            <enum name="TOP_LEFT" value="1"/>
+            <enum name="TOP_RIGHT" value="2"/>
+            <enum name="BOTTOM_LEFT" value="3"/>
+            <enum name="BOTTOM_RIGHT" value="4"/>
+        </attr>
+    </declare-styleable>
+
+
+
+</resources>

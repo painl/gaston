@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.capricorn.TumblrLayout
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/item_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        custom:bottomHolderHeight="60dp"
+        custom:childSize="60dp"
+        custom:rightHolderWidth="100dp" />
+
+    <FrameLayout
+        android:id="@+id/control_layout"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/xml_menu_background_green" >
+
+        <ImageView
+            android:id="@+id/control_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:duplicateParentState="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/option"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</merge>

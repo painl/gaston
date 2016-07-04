@@ -1,0 +1,48 @@
+int attr bottomHolderHeight 0x7f010007
+int attr childSize 0x7f010002
+int attr fromDegrees 0x7f010000
+int attr leftHolderWidth 0x7f010003
+int attr leftThumbPadding 0x7f010004
+int attr menuAnchor 0x7f010009
+int attr menuIconSize 0x7f010005
+int attr rightHolderWidth 0x7f010008
+int attr thumbPaddingTop 0x7f010006
+int attr toDegrees 0x7f010001
+int drawable composer_button 0x7f020000
+int drawable composer_button_normal 0x7f020001
+int drawable composer_button_pressed 0x7f020002
+int drawable composer_icn_plus 0x7f020003
+int drawable composer_icn_plus_normal 0x7f020004
+int drawable composer_icn_plus_pressed 0x7f020005
+int drawable menu 0x7f020006
+int drawable option 0x7f020007
+int drawable xml_menu_background_green 0x7f020008
+int id BOTTOM_LEFT 0x7f040000
+int id BOTTOM_RIGHT 0x7f040001
+int id TOP_LEFT 0x7f040002
+int id TOP_RIGHT 0x7f040003
+int id control_hint 0x7f040006
+int id control_layout 0x7f040005
+int id item_layout 0x7f040004
+int layout arc_menu 0x7f030000
+int layout ray_menu 0x7f030001
+int layout tumblr_menu 0x7f030002
+int layout vertical_ray_menu 0x7f030003
+int[] styleable ArcLayout { 0x7f010000, 0x7f010001, 0x7f010002 }
+int styleable ArcLayout_childSize 2
+int styleable ArcLayout_fromDegrees 0
+int styleable ArcLayout_toDegrees 1
+int[] styleable ArcMenu { 0x7f010000, 0x7f010001, 0x7f010002 }
+int styleable ArcMenu_childSize 2
+int styleable ArcMenu_fromDegrees 0
+int styleable ArcMenu_toDegrees 1
+int[] styleable RayLayout { 0x7f010003 }
+int styleable RayLayout_leftHolderWidth 0
+int[] styleable TumblrLayout { 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008 }
+int styleable TumblrLayout_bottomHolderHeight 3
+int styleable TumblrLayout_leftThumbPadding 0
+int styleable TumblrLayout_menuIconSize 1
+int styleable TumblrLayout_rightHolderWidth 4
+int styleable TumblrLayout_thumbPaddingTop 2
+int[] styleable TumblrMenu { 0x7f010009 }
+int styleable TumblrMenu_menuAnchor 0
